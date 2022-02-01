@@ -3,5 +3,5 @@ Predicted the weights of four species based on below feature:-
 2. Length of species in cms which has continious values like 30.0, 30.1 and so on
 3. Height of the species in pct which has continious values like 39.8, 40.0 and so on
 
-The approach used in this file is comparision approach. The same problem is solved by linear regression ad well as Lasso and Ridge regression.
+The approach used in this file is comparision approach. The same problem is solved by linear regression as well as Lasso and Ridge regression.
 This helps in understanding why linear model might have failed and what gap is covered by the regualization methods
