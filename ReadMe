@@ -1,0 +1,6 @@
+Predicted the weights of four species based on below feature:-\n 
+1. Species type which has values like 1,2,3 and 4 distinct values representing four types of species\n
+2. Length of species in cms which has continious values like 30.0, 30.1 and so on \n
+3. Height of the species in pct which has continious values like 39.8, 40.0 and so on \n\n
+The approach used in this file is comparision approach. The same problem is solved by linear regression ad well as Lasso and Ridge regression.\n
+This helps in understanding why linear model might have failed and what gap is covered by the regualization methods
