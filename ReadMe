@@ -1,3 +1,5 @@
+Weight Prediction
+
 Predicted the weights of four species based on below feature:-
 1. Species type which has values like 1,2,3 and 4 distinct values representing four types of species
 2. Length of species in cms which has continious values like 30.0, 30.1 and so on
@@ -5,3 +7,13 @@ Predicted the weights of four species based on below feature:-
 
 The approach used in this file is comparision approach. The same problem is solved by linear regression as well as Lasso and Ridge regression.
 This helps in understanding why linear model might have failed and what gap is covered by the regualization methods
+
+
+Concrete Strength
+
+Predicted Concrete strength using parameters such as aggregators, components , cement componets etc., below are the details of the solution:-
+1. The performance based on the features has been predicted with and without tuning of hyper parameters.
+2. In order to understand the contribution of each feature, principle component analysis (PCA) technique has also been used
+3. Concrete strength performance has been measured using RMSE loss.
+
+Multiple models has been used in this solution the best performing model was XGBooster.
